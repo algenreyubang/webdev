@@ -1,0 +1,217 @@
+* {box-sizing: border-box}
+body{
+
+ background-color: rgb(192, 192,192);
+ 
+}
+/* 1 */
+.h1{
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.right{
+   float: right;
+   margin-right: 50px;
+   list-style: none;
+}
+
+/* 2 */
+.me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 0;
+
+}
+.qoute{
+    padding-top: 150px;
+    justify-self: start;
+    font-size: 40px;
+}
+.about{
+    padding-left: 100px;
+    font-size: 60px;
+   text-align: center;
+}
+.jotaro{
+    height: 800px;
+    width: 450px;
+   justify-self: end;
+   margin-right: 5px;
+}
+/* 3 */
+.work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 2px;
+    
+   
+    
+}
+.P{ 
+    padding-top: 170px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+.lap{
+    align-items: end;
+    margin-right: 0;
+    
+  
+}
+.main-prog{
+   /* padding-top: 150px; */
+  width: 800px;
+    height: 400px;
+}
+.prog{
+    width: 300px;
+    height: 400px;
+    
+    
+}
+.mywork{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    gap: 20px;
+    padding-top: 100px;
+}
+.gaming{
+    padding-top: 30px;
+    text-align: left;
+}
+.office{
+    height: 500px;
+    width: 500px;
+   
+}
+/* job */
+.job{
+ display: grid;
+ grid-template-columns: 950px 200px 1fr;
+ padding-bottom: 100px;
+
+}
+.star-platinum{
+    display: grid;
+    padding-top: 20px;
+    padding-left: 25px;
+   padding-right: 250px;
+   font-size: 40px;
+}
+.mr-lonely{
+    padding-top: 200px;
+    width: 350px;
+    height: 700px;
+}
+.theworld{
+    margin-top: 650px;
+    
+   
+}
+/* work with me */
+.with-me{
+    margin-top: 70px;
+    display:grid;
+    grid-template-columns: 900px 1fr;
+  
+}
+.h2{
+    font-size: 50px;
+    align-items: justify;
+}
+.address{
+   float: right;
+   margin-right: 225px;
+}
+.homy{
+    width: 15000px;
+}
+.mySlides {width: 1500px;}
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 15000px;
+    position: relative;
+ 
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+ 
+   
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }

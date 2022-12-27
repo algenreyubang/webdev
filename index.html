@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--  -->
+    <h1 class="h1">Jotaro Kujo</h1>
+    <ul class="right">
+        <li >omae wa mou shindeiru</li>
+        <li >yare-yare daze</li>
+        <li >ora ora ora!!!!!!!</li>
+        <li>kono dio da </li>
+    </ul>
+    <br>
+    <!-- <div class="carosel-cotainer">
+      <div class="carosel-slide">
+        <img src="/images/sky.jpeg"  id="lastClone">
+        <img src="/images/homy.jpeg" >
+        <img src="/images/snowy.jpeg" >
+       <img src="/images/lake.jpeg" >
+       <img src="/images/star.jpg" >
+       <img src="/images/trees.jpeg" >
+       <img src="/images/forest.jpeg" >
+       <img src="/images/sky.jpeg" >
+       <img src="/images/homy.jpeg"  id="firstClone">
+   -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="/images/homy.jpeg" class="homy" > 
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext" style="color: black; " >2 / 7</div>
+      <img src="/images/snowy.jpeg" class="homy" >
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="/images/lake.jpeg" class="homy" >
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 7</div>
+      <img src="/images/star.jpg" class="homy" >
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"  style="color: black; ">5 / 7</div>
+      <img src="/images/trees.jpeg" class="homy" >
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 7</div>
+      <img src="/images/forest.jpeg" class="homy" >
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 7</div>
+      <img src="/images/sky.jpeg" class="homy" >
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+      <span class="dot" onclick="currentSlide(7)"></span> 
+    </div>
+    <br>
+    <!--  -->
+    <div class="me">
+    <h2 class="about">About me</h2>
+    <div class="qoute">
+    <q >A road is something that you make yourself</q>
+        <br>
+        <p>-kojo jotaro</p>
+   </div>
+    <img src="/images/jotaro-platinum.jpg" class="jotaro">
+    </div>
+    <!--  -->
+    <br><br><br>
+    <div class="work">
+      <div ><p class="P">MY WORK</p>
+     <img src="/images/anime.gif" class="main-prog">
+    </div>
+   
+     <div class="lap">
+        <img src="/images/reading.gif" class="prog">
+        <p>"life is like a manga you need to keep to going" <br><br>-CTTO</p>
+      </div>
+      <div class="lap">
+        <img src="/images/mywork3.jpeg" class="prog ">
+      <p>hello</p>
+      </div>
+      </div>
+    <br>
+  <br>
+  <br>
+  <br>
+    <!--  -->
+    <div class="mywork"> 
+      <p class="gaming">"gaming is one of my relaxing time it is use for relieving the stress that i gather<br>-Algen Rey" <br><br>
+      "gamers never quit we simply restart" <br>-CTTO </p> 
+  
+      <img src="/images/gaming.jpg" class="office">
+      <div> 
+      <img src="/images/mywork5.jpeg" class="office">
+      
+      <p>i like to socialize like engaging to meet others but others dosent like me so im just a living air to them</p> 
+    </div>
+    </div>
+    <br> 
+    <br> 
+    <br> 
+    <!--  -->
+   <div class="job" >
+    <div>
+    <p class="star-platinum">"Impossible? We did a lot of impossible things on this journey. I'm tired of hearing that things are impossible or useless. Those words mean nothing to us". <br>
+     <br> - Jotaro Kujo </p>
+    
+  </div>
+    <q class="theworld">star platium the world!!!!!!!!! <br>-jotaro kujo </q>
+    <img src="/images/the world.jpg" class="mr-lonely">
+</div>  
+  <!--  -->
+<div class="with-me">
+    <h2 class="h2">Work with Me </h2>
+    <img src="/images/withme.jpeg" > 
+</div>
+<div class="address">
+<p>address</p>
+  <p>123 anywhere somewhere idk St. Any timelie  isekai coutry </p>
+  <p>email</p>
+  <p>omae_wa_mou_shindeiru@Nani!!!!!.com</p>
+  <p>phone</p>
+  <p>*****************</p>
+</div>
+<script> let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "flex";  
+    dots[slideIndex-1].className += " active";
+  }</script>
+</body>
+</html>
